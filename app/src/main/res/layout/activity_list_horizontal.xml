@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!-- RecyclerView没有实现divider属性
+    他的item分割线在RecyclerView.ItemDecoration中实现
+    通过addItemDecoration方法添加 -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
